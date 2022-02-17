@@ -1,5 +1,5 @@
 import sys
-from antlr4 import FileStream, CommonTokenStream, ParseTreeWalker
+from antlr4 import FileStream, CommonTokenStream, ParseTreeWalker # type: ignore
 from tildeathLexer import tildeathLexer
 from tildeathParser import tildeathParser
 from tildeathConsoleListener import tildeathParserListener
