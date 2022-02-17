@@ -1,0 +1,11 @@
+import universe U;
+import author Karkat;
+
+~ATH(U) {
+
+    ~ATH(Karkat) {
+    } EXECUTE(NULL);
+
+} EXECUTE(NULL);
+
+THIS.DIE();

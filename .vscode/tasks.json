@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate Grammar Files",
+			"command": "antlr4",
+			"args": ["-Dlanguage=Python3", "tildeath*.g4"],
+			"type": "shell"
+		}
+	]
+}

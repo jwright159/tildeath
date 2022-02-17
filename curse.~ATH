@@ -1,0 +1,13 @@
+bifurcate THIS[THIS, THIS];
+import universe U1;
+import universe U2;
+
+~ATH(U1) {
+
+	~ATH(!U2) {
+
+} EXECUTE(~ATH(THIS){}EXECUTE(NULL));
+
+	} EXECUTE(~ATH(THIS){}EXECUTE(NULL));
+
+[THIS, THIS].DIE();
