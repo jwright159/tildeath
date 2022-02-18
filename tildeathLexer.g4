@@ -1,12 +1,13 @@
 lexer grammar tildeathLexer;
 
 IMPORT: 'import';
-IMPORT_TYPE: 'universe' | 'author';
+IMPORT_TYPE: 'universe' | 'author' | 'meson';
 GRAVE: '~ATH';
-
-ID: LETTER+;
+NULL: 'NULL';
 
 DIE: 'THIS.DIE();';
+
+ID: LETTER+;
 
 SEMI: ';';
 COMMA: ',';
